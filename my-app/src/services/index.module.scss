@@ -1,5 +1,67 @@
-.title{
-    padding-top: 2%;
-    display: flex;
-    justify-content: center;
+.title {
+//   padding-top: 2%;
+  display: flex;
+  justify-content: center;
+}
+
+.paragraph {
+    // padding-top: 0.5%;
+  display: flex;
+  justify-content: center;
+  line-height: 1.5;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.imageItem {
+  margin: 0 10px;
+  text-align: center;
+}
+
+// YourComponent.module.scss
+
+$cardWidth: 202px;
+$cardHeight: 250px;
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 22%;
+  margin-right: 22%;
+}
+
+.card {
+  width: $cardWidth;
+  height: $cardHeight;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 16px;
+
+  img {
+    width: 100%;
+    height: auto;
+    max-height: 70%;
+    object-fit: cover;
+    margin-bottom: 8px;
+  }
+
+  .description {
+    font-size: 14px;
+    text-align: center;
+  }
+}
+
+.services{
+    padding-top: 3%;
 }
