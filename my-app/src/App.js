@@ -1,11 +1,22 @@
 import logo from './logo.svg';
-import './App.css';
+
+import styles from "./App.module.scss";
+import ButtonAppBar from './header/header';
+import { Card } from '@mui/material';
+import ImageSlider from './imageSlider/imageSlider';
+import HomeDescription from './body';
+import Services from './services';
 
 function App() {
   return (
-    <div className="App">
+    <div className={styles.App}>
+      <ButtonAppBar></ButtonAppBar>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <Card>
+          <ImageSlider></ImageSlider>
+        </Card>
+        <HomeDescription></HomeDescription>
+        <Services></Services>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>

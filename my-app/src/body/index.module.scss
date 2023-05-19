@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  //   padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  //   background-color: gray;
+  text-align: left;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 30px;
+  color: #000;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+  text-transform: none;
+  font-style: normal;
+  //   font-size: 1.8rem;
+  border: none
+
+}
+
+.container .description {
+  flex: 1;
+  margin-top: -17%;
+  
+}
+
+.container .title {
+  font-size: 2rem;
+}
+
+.container .paragraph {
+  font-size: 1.3rem;
+  font-family: "Gotham-Book", sans-serif;
+}
+
+.container .image {
+  flex-shrink: 0;
+}
+
+.container .image img {
+  width: 700px;
+
+  height: 623px;
+  padding-left: 30px;
+}

@@ -1,0 +1,22 @@
+.title {
+  // color: red;
+  // background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.callNow {
+        align-items: center;
+    display: none;
+    flex-grow: 0;
+    flex-shrink: 0;
+    font-size: 17px;
+    padding: 0 14px;
+    text-transform: capitalize;
+    white-space: nowrap;
+}
+
+.AppBar{
+  background-color: red;
+}
