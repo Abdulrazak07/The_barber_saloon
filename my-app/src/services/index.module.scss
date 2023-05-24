@@ -1,11 +1,11 @@
 .title {
-//   padding-top: 2%;
+  //   padding-top: 2%;
   display: flex;
   justify-content: center;
 }
 
 .paragraph {
-    // padding-top: 0.5%;
+  // padding-top: 0.5%;
   display: flex;
   justify-content: center;
   line-height: 1.5;
@@ -62,6 +62,20 @@ $cardHeight: 250px;
   }
 }
 
-.services{
-    padding-top: 3%;
+.services {
+  padding-top: 3%;
+}
+
+.menu {
+  justify-content: center;
+  width: 5%;
+  height: 26px;
+  margin: 0;
+}
+
+.viewMenu {
+  padding-top: 5px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
