@@ -49,6 +49,8 @@ export default function Services() {
          </div>
          {/* <Card className={styles.menu}>View Menu</Card> */}
        </div>
-       <Button className={styles.viewMenu}>View Menu</Button>
+       <div className={styles.menu}>
+         <Button className={styles.viewMenu}>View Menu</Button>
+       </div>
      </>
    );}

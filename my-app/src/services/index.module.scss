@@ -68,9 +68,10 @@ $cardHeight: 250px;
 
 .menu {
   justify-content: center;
-  width: 5%;
-  height: 26px;
-  margin: 0;
+  text-align: center;
+  width: 100%;
+  margin: 0; 
+  margin-top: 10px; 
 }
 
 .viewMenu {
@@ -78,4 +79,6 @@ $cardHeight: 250px;
   display: flex;
   justify-content: center;
   text-align: center;
+  width: 7%;
+  margin: 0;
 }

@@ -1,50 +1,50 @@
 .container {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  //   padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  // box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  //   background-color: gray;
-  text-align: left;
-  margin-left: 300px;
-  margin-right: 300px;
-  margin-top: 30px;
-  color: #000;
-  font-weight: 400;
-  line-height: 1.5;
-  text-align: left;
-  text-transform: none;
-  font-style: normal;
-  //   font-size: 1.8rem;
-  border: none;
-  padding-top: 7%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
 
-}
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 
-.container .description {
-  flex: 1;
-  margin-top: -17%;
-  
-}
+    .description {
+      flex: 0 0 calc(60% - 20px); /* Adjust the width as needed */
+      margin-left: 20px;
 
-.container .title {
-  font-size: 2rem;
-}
+      .title {
+        font-size: 2rem;
+      }
 
-.container .paragraph {
-  font-size: 1.3rem;
-  font-family: "Gotham-Book", sans-serif;
-}
+      .paragraph {
+        font-size: 1.3rem;
+        font-family: "Gotham-Book", sans-serif;
+      }
+    }
 
-.container .image {
-  flex-shrink: 0;
-}
+    .image {
+      flex: 0 0 100%;
+      margin-top: 20px;
 
-.container .image img {
-  width: 700px;
+      img {
+        width: 100%;
+      }
+    }
+  }
 
-  height: 623px;
-  padding-left: 30px;
+  @media (min-width: 768px) {
+    .content {
+      flex-direction: row-reverse;
+
+      .description {
+        flex: 0 0 calc(40% - 20px); /* Adjust the width as needed */
+        margin-left: 20px;
+      }
+
+      .image {
+        flex: 0 0 60%; /* Adjust the width as needed */
+        margin-top: 0;
+      }
+    }
+  }
 }

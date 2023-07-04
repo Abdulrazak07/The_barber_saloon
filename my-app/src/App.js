@@ -7,30 +7,27 @@ import ImageSlider from './imageSlider/imageSlider';
 import HomeDescription from './body';
 import Services from './services';
 import Location  from './location';
+import Footer from './footer/footer';
+import ContactUs from './testimonial';
 
 function App() {
   return (
-    <div className={styles.App}>
+    <div >
       <ButtonAppBar></ButtonAppBar>
-      <header className="App-header">
-        <Card>
-          <ImageSlider></ImageSlider>
-        </Card>
-        <HomeDescription></HomeDescription>
-        <Services></Services>
-        <Location></Location>
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <header className="App-header"></header>
+      <Card>
+        <ImageSlider></ImageSlider>
+      </Card>
+      <HomeDescription></HomeDescription>
+      {/* <Services></Services> */}
+      {/* <ContactUs></ContactUs> */}
+      {/* <Location></Location> */}
+      {/* <Footer></Footer> */}
+
+      <p>
+        Edit <code>src/App.js</code> and save to reload.
+      </p>
+   
     </div>
   );
 }
